@@ -1,0 +1,29 @@
+:root {
+    --color-light: #7961fd;
+    --color-dark: #fdfcf6;
+    --color-shadow: #f8e412d5;
+    --color-primary: #b9c0fb;
+    --color-secondary: #5a32fe;
+    
+    --font-cursive: 'Dancing Script', cursive;
+    --font-serif: 'PT Serif', serif
+}
+
+.logo {
+    max-width: 40%;
+}
+
+.logo{
+    position: relative;
+    display: inline-block;
+}
+.logo .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99; 
+}
+.logo:hover .img-top {
+    display: inline;
+}
