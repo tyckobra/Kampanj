@@ -1,10 +1,14 @@
 
 a {
-    color: var(--color-dark);
+    color: var(--color-light);
     text-decoration: none;
 }
 a:hover {
     color: var(--color-primary);
+}
+
+.text {
+    text-align: center;
 }
 
 /* navbar */
@@ -12,9 +16,9 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    padding: 1rem;
+    text-align: center;
 
-    font-size: 1.333rem;
+    font-size: 1.5rem;
 }
 
 .navbar__collapse-show {
@@ -52,17 +56,17 @@ a:hover {
     text-decoration: none;
 }
 .nav-item {
-    padding-right: 1rem;
+    padding-right: 3rem;
 }
 .nav-item:first-child {
-    padding-left: 1rem;
+    padding-left: 0rem;
 }
 .nav-link {
-    color: var(--color-dark);
+    color: var(--color-secondary);
 }
 .nav-link:hover {
     text-decoration: none;
-    color: var(--color-secondary);
+    color: var(--color-dark);
     
 }
 
@@ -76,6 +80,11 @@ a:hover {
     }
 }
 
+.bilder {
+    width: 50%;
+    display: flex;
+}
+
 /* container */
 
 body {
@@ -84,7 +93,7 @@ body {
     display: flex;
     flex-direction: column;
 
-    color: var(--color-dark);
+    color: black;
     background-color: var(--color-primary);
 
     line-height: 1.5;
@@ -144,14 +153,14 @@ body {
 }
 .btn:hover {
     background-color: var(--color-primary);
-    color: var(--color-dark)
+    color: black
 }
 
 /* hero */
 .hero {
     font-size: 1.777rem;
 
-    color: var(--color-light);
+    color: black;
     background-color: var(--color-dark);
     min-height: 80vh;
     display: grid;
@@ -178,6 +187,7 @@ h1, h2, h3 {
 
 h1 {
     font-size: 3.157rem;
+    text-align: center;
 }
 
 h2 {
@@ -187,11 +197,16 @@ h2 {
 h3 {
    font-size: 1.777rem;
 }
+h4 {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
 
 p {
     margin-bottom: 1rem;
     font-family: var(--font-serif);
 }
+
 
 /* sidfot */
 footer {
@@ -199,5 +214,5 @@ footer {
     padding-top: 2.369rem;
     padding-bottom: 3.157rem;
     background-color: var(--color-dark);
-    color: var(--color-light);
+    color: black;
 }
