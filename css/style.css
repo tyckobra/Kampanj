@@ -62,11 +62,11 @@ a:hover {
     padding-left: 0rem;
 }
 .nav-link {
-    color: var(--color-secondary);
+    color: var(--color-dark);
 }
 .nav-link:hover {
     text-decoration: none;
-    color: var(--color-dark);
+    color: Black;
     
 }
 

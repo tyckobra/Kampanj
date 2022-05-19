@@ -9,21 +9,94 @@
     --font-serif: 'PT Serif', serif
 }
 
-.logo {
-    max-width: 20%;
-    justify-content: center;
+.logo > img {
+    width: 3rem;
+    padding: 0.2rem;
+    margin-left: 3rem;
 }
 
-.logo{
+
+.logo:after {
+left: -100%;
+clip-path: polygon(10% 0, 70% 0, 90% 100%, 30% 100%);
+background-color: rgba(255, 255, 255, 0.6);
+transition: all 300ms ease;
+}
+
+.logo:hover::after {
+left: 21%;
+}
+  
+.logo {
+padding-right: 2rem;
+display: inline-flex;
+transition: all 0.8s ease;
+position: relative;
+}
+
+.logo::before,
+.logo::after {
+position: absolute;
+content: "";
+width: 70%;
+height: 100%;
+}
+
+
+
+
+.brand2:after {
+    left: -800%;
+    clip-path: polygon(10% 0, 70% 0, 90% 100%, 30% 100%);
+    background-color: rgba(255, 255, 255, 0.6);
+    transition: all 300ms ease;
+    }
+    
+    .brand2:hover::after {
+    left: -75%;
+    }
+      
+    .brand2 {
+        padding: auto;
+    display: block;
+    transition: all 0.8s ease;
     position: relative;
-    display: inline-block;
-}
-.logo .img-top {
-    display: none;
+    padding-bottom: 0.75rem;
+    }
+    
+    .brand2::before,
+    .brand2::after {
     position: absolute;
-    top: 0;
-    left: 0;
-}
-.logo:hover .img-top {
-    display: inline;
-}
+    content: "";
+    width: 250%;
+    height: 100%;
+    }
+
+
+
+    .brand3:after {
+        left: -800%;
+        clip-path: polygon(10% 0, 70% 0, 90% 100%, 30% 100%);
+        background-color: rgba(255, 255, 255, 0.6);
+        transition: all 300ms ease;
+        }
+        
+        .brand3:hover::after {
+        left: -75%;
+        }
+          
+        .brand3 {
+            padding: auto;
+        display: block;
+        transition: all 0.8s ease;
+        position: relative;
+        padding-bottom: 0.75rem;
+        }
+        
+        .brand3::before,
+        .brand3::after {
+        position: absolute;
+        content: "";
+        width: 250%;
+        height: 100%;
+        }
