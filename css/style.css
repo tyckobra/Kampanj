@@ -62,7 +62,7 @@ a:hover {
     padding-left: 0rem;
 }
 .nav-link {
-    color: var(--color-dark);
+    color: black;
 }
 .nav-link:hover {
     text-decoration: none;
